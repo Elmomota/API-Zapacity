@@ -3,7 +3,7 @@ const{zapatillas}=require("../zapatillas.js");
 
 const getZapatillas=(req=request,res=response)=>{
     return res.json({
-        zapatillas: zapatillas
+        zapatillas
     });
 }
 const getZapatillasById = (req = request, res = response) => {
